@@ -31,7 +31,7 @@ const server = http.createServer((req, res) => {
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-            <title>GitHub → ECR → ECS</title>
+            <title>AWS - Terraform Infrastructure</title>
 
             <style>
                 body {
@@ -86,12 +86,12 @@ const server = http.createServer((req, res) => {
         <body>
             <div class="container">
 
-                <h1>GitHub → ECR → ECS</h1>
+                <h1>AWS - Terraform Infrastructure</h1>
 
-                <h2>CI/CD Deployment Pipeline</h2>
+                <h2>Infrastructure as Code</h2>
 
                 <div class="pipeline">
-                    GitHub → ECR → ECS
+                    AWS → Terraform → Infrastructure
                 </div>
 
                 <div class="status">
@@ -112,6 +112,5 @@ const server = http.createServer((req, res) => {
 
 // Start Server
 server.listen(PORT, "0.0.0.0", () => {
-    console.log(`GitHub → ECR → ECS application running on port ${PORT}`);
+    console.log(`AWS - Terraform Infrastructure application running on port ${PORT}`);
 });
-
