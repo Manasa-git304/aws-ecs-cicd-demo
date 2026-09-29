@@ -31,7 +31,7 @@ const server = http.createServer((req, res) => {
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-            <title>GitHub → ECR → ECS</title>
+            <title>AWS-GitHub → ECR → ECS</title>
 
             <style>
                 body {
@@ -86,7 +86,7 @@ const server = http.createServer((req, res) => {
         <body>
             <div class="container">
 
-                <h1>GitHub → ECR → ECS</h1>
+                <h1>AWS-GitHub → ECR → ECS</h1>
 
                 <h2>CI/CD Deployment Pipeline</h2>
 
